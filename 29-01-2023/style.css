@@ -1,0 +1,85 @@
+h1,
+h2 {
+  text-align: center;
+}
+
+.navCat {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: green;
+}
+
+.navCat .elCat {
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.navCat .elCat:hover {
+  color: white;
+  font-size: 1.05rem;
+  cursor: pointer;
+}
+
+.cardsContainer {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  height: 250px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  text-align: center;
+  margin: 4px 4px 4px 4px;
+}
+
+.immagine {
+  height: 90px;
+  object-fit: scale-down;
+}
+
+.bottone {
+  height: 28px;
+  width: 100px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: calc(50% - 50px);
+}
+
+.carrello {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  text-align: right;
+  text-shadow: 1px 1px 3px blue;
+}
+
+.carrelloProd {
+  width: 400px;
+  gap: 5px;
+  display: none;
+  flex-direction: column;
+  border: 3px solid black;
+  text-align: center;
+  position: fixed;
+  right: 10px;
+  bottom: 110px;
+  background-color: white;
+}
+
+.prod {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  gap: 10px;
+  border: 2px solid orange;
+}
