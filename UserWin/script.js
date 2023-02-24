@@ -13,7 +13,7 @@ closePopup.addEventListener("click", () => {
 //genera un numero da 3 a 10
 function getNumberValue() {
   //ricorsione
-  let num = Math.floor(Math.random() * 10);
+  let num = Math.floor(Math.random() * 11);
   if (num < 3) {
     return getNumberValue();
   }
